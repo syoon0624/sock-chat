@@ -1,0 +1,19 @@
+{
+  "name": "sock-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syoon0624/sock-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syoon0624/sock-chat/issues"
+  },
+  "homepage": "https://github.com/syoon0624/sock-chat#readme"
+}
