@@ -7,6 +7,9 @@ const path = require('path');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+//퍼블릭 폴더 라우트 지정
+app.use('/public', express.static(__dirname + '/public'));
+
 const indexRouter = require('./routes/index');
 const clubsRouter = require('./routes/clubs');
 
